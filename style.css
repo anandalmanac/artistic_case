@@ -1,0 +1,196 @@
+
+html{
+    
+    scroll-behavior: smooth;
+}
+
+
+.nav-link{
+    color: rgba(204, 199, 191, 0.582) !important;
+    margin-left: 30px;
+
+}
+.nav-link:hover{
+    color: white !important;
+    transition-delay: 6ms;
+}
+
+
+.artist{
+
+    transform: translateY(-150px);
+    font-family: cursive;
+    color: rgba(14, 252, 6, 0.829);
+    text-shadow: black 2px 2px 2px;
+    font-weight: bolder;
+
+}
+.abcd{
+    transform: translateY(-150px);
+    
+    font-family: monospace;
+}
+.col{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family:cursive;
+    margin-left: 60px;
+    
+}
+.artist{
+  
+    animation: text 3s 1;
+}
+@keyframes text{
+    0%{
+        margin-bottom: -100px;
+    }
+    30%{
+        margin-bottom: -100px;
+    }
+}
+
+/*services*/
+
+
+
+#services{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('artistic_case1.png') ;
+    background-size: cover;
+    
+    background-position: center;
+    background-attachment: fixed;
+    color: white !important;
+    text-align: center;
+    
+    padding-top: 30px;
+}
+
+.icon img{
+    height: 300px;
+    width: 200px;
+    
+    border-radius: 40px;
+ 
+  
+}
+/*team*/
+#team{
+    padding-top:30px ;
+    padding-bottom: 60px;
+    font-family:cursive;
+}
+#team h1{
+    text-align: center;
+    text-decoration: 4px underline rgb(42, 129, 230);
+}
+.profile-pic{
+    margin-top: 30px;
+}
+.profile-pic.img-box{
+    opacity: 1;
+    display: block;
+    align-content: center;
+}
+.img-box{
+   
+    filter: grayscale(1);
+    border-radius: 30px;
+    width: 150px;
+   
+
+
+}
+.img-box h3{
+    text-align: center;
+    color: rgb(42, 129, 230) !important;
+    transform: translateY(-20px);
+}
+.img-box:hover{
+    filter: grayscale(0);
+    transition-delay: .5s;
+}
+
+.img-box ul{
+    transform: translateY(-50px);
+    opacity: 0;
+  
+}
+
+#team ul li{
+    display: inline-block;
+    
+    padding-left: 5px;
+    
+}
+
+.img-box:hover ul{
+    opacity: 1;
+    transition-delay: .5s;
+}
+
+
+
+/*price plans*/
+
+#price-plan{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.212),black),url("image1.jpg");
+    background-attachment: fixed;
+    padding-bottom: 40px;
+}
+
+.price-head{
+    color: white;
+    transform: translateY(20px);
+}
+
+
+/*contact us*/
+
+#contact-form{
+
+    background-image: url("contactform/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+
+#contact-form form{
+    padding-left: 40px;
+    padding-top: 40px;
+    width: 50%;
+    
+}
+#contact-form input{
+    border-radius: 20px;
+    background-color: rgba(212, 203, 203, 0.726);
+}
+#contact-form input:hover{
+    background-color: rgb(255, 255, 255);
+    transition-delay: 10ms;
+    opacity: .6;
+}
+#contact-form textarea{
+    border-radius: 20px;
+    width: 500px !important;
+    background-color: rgba(212, 203, 203, 0.726);
+    
+}
+#contact-form textarea:hover{
+    background-color: rgb(255, 255, 255);
+    transition-delay: 10ms;
+    opacity: .6;
+
+}
+#contact-form input[type="submit"]{
+    width: 80px !important;
+    
+    
+}
+
+#contact-form h1{
+    color: rgb(233, 151, 27);
+    padding-left: 100px;
+    padding-top: 30px;
+}
